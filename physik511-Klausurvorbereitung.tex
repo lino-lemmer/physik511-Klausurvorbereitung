@@ -1,0 +1,72 @@
+\input{header.tex}
+
+\author{Lino Lemmer}
+\title{physik511 - Klausurvorbereitung}
+
+\begin{document}
+\maketitle
+
+\section{Beispielaufgaben}
+
+\subsection{Relativistische Energie-Masse-Impuls-Beziehung}
+\[
+    E^2 = p^2c^2 + M^2c^4
+\]
+
+\subsection{Transmittierte Teilchen}
+
+$N_0$ Teilchen werden auf einen Block mit Flächendichte $m$ geschossen. $\sigma$ sei der totale Wirkungsquerschnitt.
+\begin{align*}
+    N &= \sigma \cdot N_0 \cdot m
+    \intertext{%
+        ist die Anzahl der wechselwirkenden Teilchen, demnach werden
+    }
+    N_0-N &= N_0\del{1 - \sigma m}
+\end{align*}
+Teilchen transmittiert.
+
+\subsection{${}^{16}_8\text{O}$}
+
+${}^{16}_8\text{O}$ besteht aus 8 Protonen und 8 Neutronen. Ein mögliches
+Isotop (gleiche Ladungszahl) ist ${}^{15}_8\text{O}$, ein Isobar (gleiche
+Massenzahl) ist ${}^{16}_7\text{N}$. Zudem ist es sein eigener Spiegelkern.
+
+Zerfiele der Kern durch $\alpha$-Zerfall, entstünde ein ${}^{12}_6\text{C}$-Kern.
+
+\subsection{Weizsäcker'sche Massenformel}
+
+Die Weizsäcker'sche Massenformel enthält folgende Terme. Dabei gilt die
+Beziehung $A \propto R^3$.
+\begin{description}
+    \item[Massenterm $ZM_\text{p}+\del{A-Z}M_\text{n}+ZM_\text{e}$]
+        Dieser Term enthält die reine Masse der Bestandteile.
+    \item[Volumenterm $-a_VA$]
+        Jedes Nukleon nimmt ein bestimmtes Volumen ein, daher ist dieser Term
+        proportional zur Massenzahl $A$. Die Masse die hier fehlt, wird in
+        Bindungsenergie umgewandelt.
+    \item[Oberflächenterm $+a_OA^{\frac23}$]
+        An der Oberfläche ist die Bindungsenergie schwächer. Da die Oberfläche
+        einer Kugel proportional zum quadratischen Radius ist, ist die geht die
+        Massenzahl mit $A^{\frac23}$ ein.
+    \item[Coulombterm $+a_CZ\del{Z-1}A^{\frac13}$]
+        Durch die Coulombabstoßung wird die Bindungsenergie ebenfalls
+        reduziert. Da jedes Proton hier mit den $Z-1$ anderen Protonen
+        wechselwirkt kommt eine $Z\del{Z-1}$-Abhängigkeit dazu. Da die
+        Coulombkraft mit dem Abstand skaliert, ist der Term proportional zu $R$
+        und damit zu $A^{\frac13}$.
+    \item[Symmetrieterm $+a_S\frac{\del{A-2Z}^2}{4A}$]
+        Eine starke Asymmetrie zwischen der Anzahl der Protonen und Neutronen
+        wirkt destabilisierend auf den Kern. Da das Vorzeichen keine Rolle
+        spielt, wird hier quadriert und zur Kompensation des Quadrats durch $A$
+        geteilt.
+    \item[Paarungsterm $-a_PA^{-\half}$]
+        Bei Kernen mit gerader Anzahl an Protonen und Neutronen, bilden jeweils
+        zwei von einer Sorte ein Paar. Dies erhöht die Bindungsenergie. Ist
+        eine von beiden ungerade, verschwindet dieser Term und sind sogar beide
+        ungerade, wird die Bindung geschwächt, da jeweils ein Proton und ein
+        Neutron ungebunden sind.
+\end{description}
+Ist man nur an der Bindungsenergie interessiert, lässt man den Massenterm weg und nimmt den Rest negativ.
+
+Die typische Bindungsenergie pro Nukleon ist einige \si{\mega\electronvolt}.
+\end{document}
